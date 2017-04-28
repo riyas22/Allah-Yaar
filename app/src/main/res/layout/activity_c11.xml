@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical"
+    android:visibility="visible"
+    tools:context="islamicdawahkuwait.allahyaar.C11Activity">
+
+    <ScrollView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:scrollbars="vertical"
+        android:fillViewport="true">
+
+        <TextView
+            android:id="@+id/textView_c11"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:autoLink="web"
+            android:linksClickable="true"
+            android:text="ஆதாரக்குறிப்புகள்\n\n
+[1] http://www.iqrasense.com/about-islam/what-must-we-know-about-allah.html
+\n\n[2] http://www.tauheed.com/ilm-source/tauheed/about-the-word-%E2%80%9Callah%E2%80%9D-and-its-meaning/
+\n\n[3] http://www.islamhouse.com/53030/en/en/articles/20_Facts_about_Allah_(God)_in_Islam
+\n\n[4] http://archive.org/details/ConditionsOfLaaIlaahaIll-allah.pdf
+\n\n[5] http://www.islambasics.com/view.php?bkID=156&amp;chapter=9
+\n\n[6] http://qsep.com/modules.php?name=assunnah&amp;d_op=viewarticle&amp;aid=114
+\n\n[7] http://www.qsep.com/modules.php?name=aqtawhid&amp;file=article&amp;sid=37
+\n\n[8] http://www.islambasics.com/view.php?bkID=151&amp;chapter=51
+\n\n[9] http://quran.com/
+\n\n[10] http://aqeedah.wordpress.com/2007/02/22/concept-of-ibaadah-in-islam/
+\n\n[11] http://quran.com/
+\n\n[12] http://islamqa.com/en/ref/439
+\n\n[13] http://abdurrahman.org/tawheed/whereisallah.html
+\n\n[14] http://www.missionislam.com/knowledge/whereallah.html
+\n\n[15] http://dawah.invitetogod.com/questions-asked-by-non-muslims/if-allah-is-most-merciful-why-does-he-like-to-see-people-burn-in-hell
+\n\n[16] http://www.islamindepth.com/contents/details/36"
+            android:textSize="20sp"
+            android:paddingLeft="10dp"
+            android:paddingRight="10dp"
+            android:paddingTop="10dp"
+            android:paddingBottom="10dp"
+            android:scrollbars="vertical"
+            />
+
+    </ScrollView>
+
+</LinearLayout>

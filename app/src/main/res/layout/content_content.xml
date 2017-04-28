@@ -1,0 +1,127 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v4.widget.NestedScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context="islamicdawahkuwait.allahyaar.ContentActivity"
+    tools:showIn="@layout/activity_content">
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:weightSum="1">
+
+        <TextView
+            android:id="@+id/tv0"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="@dimen/text_margin"
+            android:gravity="center"
+            android:text="@string/content"
+            android:textColor="#901a1a"
+            android:textSize="20dp"
+            android:textStyle="bold"/>
+
+        <TextView
+            android:id="@+id/tv1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="@dimen/text_margin"
+            android:text="•	அல்லாஹ் யார்?"
+            android:textSize="20dp"/>
+
+        <TextView
+            android:id="@+id/tv2"
+            android:layout_width="357dp"
+            android:layout_height="wrap_content"
+            android:layout_margin="@dimen/text_margin"
+            android:layout_weight="0.02"
+            android:text="•	சொல் விளக்கம்"
+            android:textSize="20dp" />
+
+        <TextView
+            android:id="@+id/tv3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="@dimen/text_margin"
+            android:text="•	முஸ்லிம்களாகிய நாம் அல்லாஹ்வை நம்பிக்கை கொண்டிருப்பது ஏன்?"
+            android:textSize="20dp" />
+
+        <TextView
+            android:id="@+id/tv4"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="@dimen/text_margin"
+            android:textSize="20dp"
+            android:text="•	அல்லாஹ்வின் உள்ளமையில் உள்ள ஏகத்துவம்" />
+
+        <TextView
+            android:id="@+id/tv5"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="@dimen/text_margin"
+            android:text="•	அல்லாஹ்வின் செயல்களில் ஏகத்துவம்"
+            android:textSize="20dp"/>
+
+        <TextView
+            android:id="@+id/tv6"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="@dimen/text_margin"
+            android:text="•	அல்லாஹ்வின் பெயர்களில் ஏகத்துவம்"
+            android:textSize="20dp"/>
+
+        <TextView
+            android:id="@+id/tv7"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="@dimen/text_margin"
+            android:text="•	அல்லாஹ்வின் பண்புகளில் ஏகத்துவம்"
+            android:textSize="20dp"/>
+
+        <TextView
+            android:id="@+id/tv8"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="@dimen/text_margin"
+            android:textSize="20dp"
+            android:text="•	வணக்கம் என்பது அல்லாஹ் ஒருவனுக்கே" />
+
+        <TextView
+            android:id="@+id/tv9"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="@dimen/text_margin"
+            android:text="•	அல்லாஹ் எங்கே உள்ளான்?"
+            android:textSize="20dp"/>
+
+        <TextView
+            android:id="@+id/tv10"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="@dimen/text_margin"
+            android:text="•	நபிமொழிகள்"
+            android:textSize="20dp"/>
+
+        <TextView
+            android:id="@+id/tv11"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="@dimen/text_margin"
+            android:text="•	அல்லாஹ்வின் கருணை"
+            android:textSize="20dp"/>
+
+        <TextView
+            android:id="@+id/tv12"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="@dimen/text_margin"
+            android:text="•	ஆதாரக்குறிப்புகள்"
+            android:textSize="20dp"/>
+
+    </LinearLayout>
+
+</android.support.v4.widget.NestedScrollView>

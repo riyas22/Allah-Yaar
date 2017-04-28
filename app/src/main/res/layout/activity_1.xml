@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical"
+    android:visibility="visible"
+    tools:context="islamicdawahkuwait.allahyaar.Activity1">
+
+    <ScrollView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:scrollbars="vertical"
+        android:fillViewport="true">
+
+        <TextView
+            android:id="@+id/textView_1"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:paddingBottom="10dp"
+            android:paddingLeft="10dp"
+            android:paddingRight="10dp"
+            android:paddingTop="10dp"
+            android:text="நாம் அல்லாஹ்வைப் பற்றி பலவாறு மக்களிடம் செவியுறுகிறோம். ஒவ்வொருவரும் தங்கள் புரிதலுக்கு ஏற்ப பேசுகிறார்கள். அவர்களின் பேச்சின் அடிப்படையில் அல்லாஹ்வைப் பற்றிய கருத்தை உருவாக்கிக்கொள்கிறோம். நாம் சிறந்த முறையில் அல்லாஹ்வை அறிந்துகொள்ள முயல்வோம். அல்லாஹ்வைப் பற்றித் தெரிந்துகொள்ள சிறந்த வழி அல்லாஹ் தனது குர்ஆனில் என்ன சொல்லியிருக்கிறான் என்பதும், அவனுடைய தூதர் அவனைப் பற்றி என்ன சொல்லியிருக்கிறார் என்பதுமே ஆகும். அவற்றை நபியின் தோழர்கள் எப்படிப் புரிந்து நம்பிக்கை கொண்டார்களோ அவ்வாறே நாமும் நம்பிக்கைகொள்ள வேண்டும். \n\nஎல்லா ஆற்றல்களும் கொண்டவனான அல்லாஹ் நமக்குக் குர்ஆன் வாயிலாக தூதுச்செய்தி அனுப்பியுள்ளான். இந்த உலகில் நாம் எப்படி வாழ வேண்டும் என்கிற செய்தியும் மறுவுலகில் எப்படி வெற்றி பெறுவது என்கிற செய்தியும் அக்குர்ஆனில் அடங்கியுள்ளது. மனம் திறந்த நிலையில் அதை அணுகினால் இந்தப் பிரபஞ்சத்தைப் படைத்த இறைவன் அல்லாஹ்வை நம்பிக்கை கொள்கிற முறையை நாம் அறிந்துகொள்ள முடியும். நம்மைப் படைத்தவன், வளர்ப்பவன், உணவளிப்பவன் அல்லாஹ்தான் என்பதை நாம் அறிவோம். எனவே, அவனையே வணங்கி வாழ்வது நமது கடமையாகும்.
+"
+            android:textSize="20sp" />
+
+    </ScrollView>
+
+
+
+</LinearLayout>
